@@ -6,6 +6,8 @@ nav{
     align-items: center;
 
     a{
+        font-size: 16px;
+        font-weight: 600;
         transition: all 0.4s ease;
 
         @include sm{
@@ -100,13 +102,17 @@ nav{
             align-items: center;
             justify-content: center;
             font-size: 24px;
-
+            
+            @include sm{
+                right: -55%;
+            }
             &.active {
-                right: 0;
+                right: -3%;
                
                 a{
                     @include sm{
                         display: initial;
+                       
                     }
                 }
             }
