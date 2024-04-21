@@ -10,6 +10,8 @@ import {
 import Layout from './pages/Layout/Layout.jsx';
 import ListPage from './pages/List/ListPage.jsx';
 import SinglePage from './pages/Single/SinglePage.jsx';
+import NotFound from './pages/NotFound/NotFound.jsx';
+import ProfilePage from './pages/profile/ProfilePage.jsx';
 
 function App() {
   const router = createBrowserRouter([
@@ -28,6 +30,14 @@ function App() {
         {
           path:'/:id',
           element:<SinglePage/>
+        },
+        {
+          path:'/profile',
+          element:<ProfilePage/>
+        },
+        {
+          path:'*',
+          element:<NotFound/>
         }
       ]
     },

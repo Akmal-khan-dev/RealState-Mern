@@ -7,8 +7,8 @@ export const listData = [
       bathroom: 1,
       price: 1000,
       address: "456 Park Avenue, London",
-      latitude: 51.5074,
-      longitude: -0.1278,
+      latitude: 30.24928066387502, 
+      longitude: 66.81249615370363,
     },
     {
       id: 2,
@@ -18,8 +18,8 @@ export const listData = [
       bathroom: 2,
       price: 1500,
       address: "789 Oxford Street, London",
-      latitude: 52.4862,
-      longitude: -1.8904,
+      latitude: 33.03793816337435, 
+      longitude: 70.6046850635395,
     },
     {
       id: 3,
@@ -29,8 +29,8 @@ export const listData = [
       bathroom: 1,
       price: 800,
       address: "101 Baker Street, London",
-      latitude: 53.4808,
-      longitude: -2.2426,
+      latitude: 30.29846916301065, 
+      longitude:  71.54184227572782,
     },
     {
       id: 4,
@@ -40,8 +40,8 @@ export const listData = [
       bathroom: 1,
       price: 1000,
       address: "234 Kingsway, London,",
-      latitude: 53.8008,
-      longitude: -1.5491,
+      latitude: 32.75190548921256, 
+      longitude: 76.07482865275752
     },
     {
       id: 5,
@@ -51,8 +51,8 @@ export const listData = [
       bathroom: 2,
       price: 1500,
       address: "567 Victoria Road, London",
-      latitude: 53.4084,
-      longitude: -2.9916,
+      latitude: 34.01121067984972,
+      longitude:  73.54571583437254,
     },
     {
       id: 6,
@@ -62,8 +62,8 @@ export const listData = [
       bathroom: 1,
       price: 800,
       address: "890 Regent Street, London",
-      latitude: 54.9783,
-      longitude: -1.6174,
+      latitude: 33.64844199718492, 
+      longitude: 73.27929738576192,
     },
     {
       id: 7,
@@ -73,8 +73,8 @@ export const listData = [
       bathroom: 1,
       price: 1000,
       address: "112 Piccadilly, London",
-      latitude: 53.3811,
-      longitude: -1.4701,
+      latitude: 33.95199535500771,
+      longitude:  73.39465382742839,
     },
     {
       id: 8,
@@ -84,8 +84,8 @@ export const listData = [
       bathroom: 2,
       price: 1500,
       address: "8765 Main High Street, London",
-      latitude: 51.4545,
-      longitude: -2.5879,
+      latitude: 24.867286527254226, 
+      longitude: 67.07482128270705,
     },
   ];
   
@@ -102,8 +102,8 @@ export const listData = [
     bedRooms: 2,
     bathroom: 1,
     size: 861,
-    latitude: 51.5074,
-    longitude: -0.1278,
+    latitude: 34.55666652013273, 
+    longitude: 73.40366422742838,
     city: "London",
     address: "1234 Broadway St",
     school: "250m away",

@@ -1,3 +1,4 @@
+@import '../../responsive.scss';
 .card{
    
     display: flex;
@@ -6,7 +7,9 @@
 
    .imageContainer{
     flex:2;
-
+    @include sm{
+        display: none;
+    }
     img{
         width: 100%;
         height: 200px;
@@ -18,6 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 10px;
     .title{
       font-style: 20px;
       font-weight: 600;
